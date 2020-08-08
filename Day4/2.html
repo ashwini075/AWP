@@ -19,14 +19,20 @@
              
              }
         .beautify{
-            background:cyan;
+            background:black;
+            color: green;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
-    <div class="myclass" onmouseover="document.querySelector('.myclass').style.color='green'">
+    <div  id="id1" class="myclass"
+     onmouseover="document.querySelector('.myclass').style.color='green'">
    
-        <div class="beautify" onmouseout="document.querySelector('.beautify').style.color='tomato'">
+        <div id="id2" class="beautify"
+         onmouseout="document.querySelector('.beautify').style.color='tomato'"
+         onmouseover="document.querySelector('.myclass').style.color='green'"
+        >
             Hello world
          </div>
      </iv>
