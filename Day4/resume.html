@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            margin:0;
+        }
+        .myclass{
+            height: 100vh;
+           
+            display:flex ;
+            flex-direction: column;
+            justify-content: center;
+           
+        }
+        .nav{
+            background: salmon;
+            display: flex;
+            flex:2;
+        }
+        .photo{
+            margin: 12px;
+            display:flex;
+            height:50%;
+            width:50%;
+            padding-left: 10px;
+
+        }
+        .text{
+            display :flex;
+         
+            font-size: 20px;
+            padding-left: 10px;
+        }
+        .content{
+           flex:16;
+            display :flex;
+        }
+        .footer{
+            background: salmon;
+            flex:15;
+           font-size: 24px;
+            flex:1;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="myclass">
+        <div class="nav">
+            <div>
+                <img src="photo.jpg "  alt="photo"/>
+
+            </div>
+            <div class="text">
+              <b>Ashwini Gaikar</b>
+            </div>
+        </div>
+        <div class="content">
+            <div style="flex:2;">
+              <ul><b>CONTACT</b>
+                <li> Address:</li>
+                At/po Gogalgaon,Tal-Rahata,Dist-Ahemdnagr
+               
+                <li>Phone:</li>
+                7776025954
+
+                <li> Email:</li>
+                ashwinigaikar075@gmail.com
+            </ul>
+
+            </div>
+            <div style="flex:7; "> 
+                skills:
+             </div>
+        </div>
+        <div class="footer">
+            footer
+        </div>
+
+    </div>
+</body>
+</html>
