@@ -1,0 +1,46 @@
+.login{
+   
+    width: 80%;
+    background: linear-gradient( red,yellow,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 2px;
+   
+    width:280px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.form{
+   
+        border: 3px solid black; 
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 25px;
+   border-radius: 5px;
+}
+.login1{
+    margin-top: 5px;
+    background: linear-gradient(red,white,yellow);
+    font-size: 15px;
+    border:5px;
+    border-color: black;
+}
+#id1{
+    color:royalblue;
+   font-size: 30px;
+   margin-left: 15px;
+  
+}
+button:hover { 
+    opacity: 0.8; 
+    color:blue;
+} 
