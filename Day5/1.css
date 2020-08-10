@@ -1,5 +1,5 @@
 .login{
-   
+    
     width: 80%;
     background: linear-gradient( red,yellow,black);
     display: flex;
@@ -7,7 +7,7 @@
     align-items: center;
     color: black;
     border-radius: 2px;
-   
+    margin-top: 10px;
     width:280px;
     position: absolute;
     top:50%;
