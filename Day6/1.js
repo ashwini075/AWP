@@ -9,4 +9,5 @@ function mouseOut(){
     let id2Element = document.querySelector("#id2");
     id2Element.style.background = "black";
     id2Element.style.color = "white";
+    id2Element.innerHTML = "Hello World !!";
 }
