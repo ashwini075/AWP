@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        .form{
+            height:100vh;
+            background:url("https://picsum.photos/id/1055/200/300") ;
+            background: cover;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            font-size: 24px;
+            padding:5px;
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form>
+           <fieldset>
+               <legend>Registration form</legend>
+            <lable for=fname>First Name:</lable><br>
+            <input id="fname"  type="text" name="fname" Placeholder="Ashwini" pattern="[a-zA-z]" min="4" max="12">
+            <br>
+            <lable for=lname>Last Name:</lable><br>
+            <input id="lname" type="text" name="lname" Placeholder="Gaikar" pattern="[a-zA-z]" min="4" max="12"><br>
+            <lable for=email>Email:</lable><br>
+            <input id="email" name="email" type="email" Placeholder="abc@gmail.com"><br>
+            <lable for=pwd>Password:</lable><br>
+            <input id="pwd" type="password" ><br>
+            <lable for=cpwd> Confirm Password:</lable><br>
+            <input id="cpwd" type="password" >
+            <br>
+            <button id="button" type="button" style="font-size: 20px;margin-top:10px">submit</button>
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
