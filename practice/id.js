@@ -1,7 +1,7 @@
 function ontext(){
    
     console.log('called succesfully');
-    var id1Element= document.querySelector("#id1");
+    var id1Element = document.querySelector('#id1');
     id1Element.style.background = "pink";
     id1Element.style.color = "black";
     id1Element.innerHTML="Welcome to CDAC";
