@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout1</title>
+    <style>
+        html,body{
+            margin:0px;
+        }
+        .myclass {
+        height: 100vh;
+        background: url("https://picsum.photos/id/1019/1200/1200");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="myclass"
+     style="display: flex;
+                flex-direction: column;
+                height: 100vh;
+                background:hotpink">
+        <div style="display: flex;
+                    flex:2; 
+                    justify-content:space-between ;
+                    background:cornflowerblue">
+           <div style="background: gold;
+                       display:flex;
+                       justify-content: center;
+                       align-items: center;
+                      ">Reports</div>
+           <div style="background: green;
+                       display:flex;
+                       justify-content:flex-end ;
+                       align-items: center;
+                      ">Mumbai</div>
+        </div>
+        <div style="flex:15;
+                    color:white;
+                    font-size: 20px;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;">
+                <div style="font-size:50px">10:30</div>
+                <div style="font-weight: bold;;">Lorem ipsum dolor sit amet.</div> 
+         </div>
+        <div style="flex:2;
+                    background:indigo;
+                    display:flex;
+                    justify-content: space-between;
+                    color: white;
+                    font-size:30px;">
+            <div style="background: tomato; 
+                        display:flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex:1;">Lorem, ipsum dolor.</div>
+            <div style="background:red;
+                        display:flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex:2;">Lorem, ipsum dolor.</div>
+            <div style="background: rgb(78, 167, 86);
+                        display:flex;
+                        justify-content:center ;
+                        align-items: center;
+                        flex:1;">Lorem, ipsum dolor.</div>
+
+        </div>
+    </div>
+</body>
+</html>

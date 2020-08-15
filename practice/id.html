@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id selector</title>
+    <script src="id.js"></script>
+    <style>
+        .myclass{
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+          
+        }
+        .beutify{
+            background:coral;
+            border:1px solid;
+            padding:8px;
+            margin:8px;
+            border-radius:15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="myclass" >
+       <div id="id1" class="beutify" onmouseover="ontext()"
+       onmouseout="outtext()">Hello world</div> 
+      
+    </div>
+</body>
+</html>
