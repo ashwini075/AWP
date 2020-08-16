@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation form</title>
+    <script src="2.js"></script>
+</head>
+<body>
+    <div style="background:darkgrey;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size:25px ;
+    margin-bottom: 8px;
+    padding:8px;
+    flex-direction: column;">
+    <form>
+        <fieldset>
+            <legend>form</legend>
+            <div>
+                <label  >Username:</label>
+                <input id="id1" type="text" placeholder="john"   autofocus >
+                <br>
+
+                <label  >Password:</label>
+                <input id="id2" type="password" >
+                <br>
+
+                <label  >Email:</label>
+                <input id="id3" type="email" placeholder="abc@gmail.com" ><br>
+                
+                <button  style="color: rgb(192, 4, 4);
+                background:cornflowerblue;font-size: 20px;"onclick="validate()" >Submit</button>
+               
+            </div>
+                
+        </fieldset>
+    </form>
+           <br>
+            <div class="refrenceid" onsubmit="read()">
+               
+            </div>
+    </div>
+    
+</body>
+</html>
