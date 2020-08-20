@@ -1,14 +1,15 @@
 
 let getWeather = () => {
-    let cityname = document.querySelector("#textid").value ;
-
+    let cityname = document.querySelector("#textid").value || "pune";
+    console.log(textid);
     
-    let url = "api.openweathermap.org/data/2.5/weather?appid=12a37c610fc89e28980ea60352d11aa9&units=metric&q=" + cityname ;
+    let url = "http://api.openweathermap.org/data/2.5/weather?appid=12a37c610fc89e28980ea60352d11aa9&units=metric&q=" + cityname ;
 
     let xhr = new XMLHttpRequest();
     xhr.open('GET',url);
 
     xhr.onload = () => {
+        console.log(xhr.responseText);
         let refjson = JSON.parse(xhr.responseText);
         console.log(refjson);
         domlogicHere(refjson);
@@ -24,7 +25,7 @@ let domlogicHere = (refjson) => {
 
     const newElement = parent.children[0].cloneNode(true);
 
-    newElement.style.display = "block";
+    newElement.style.display = "flex";
   newElement.innerHTML = name + " " + maxTemp;
 
   parent.insertBefore(newElement, parent.firstChild);
